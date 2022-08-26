@@ -82,3 +82,15 @@ try é um método que envolve a função e "tenta" responder corretamente, caso 
 cai no catch que deve ser colocado logo após
 
 promise.all - ajuda a fazer várias requisições ao mesmo tempo
+
+
+Aula 5 - 
+
+Utilizando das heurísticas de nielsen para desenvolvimento da interface
+
+Prevenção de erros: Tente criar uma interface para permitir o usuário não errar, e caso ele erre
+explique a ele o erro
+
+Ajude os usuários a reconhecerem, diagnosticarem e recuperarem-se de erros: As mensagens de erro tem
+que ser claras e próximas ao conteúdo que causou o erro
+
