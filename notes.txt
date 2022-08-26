@@ -38,3 +38,34 @@ Existem 3 estados para a promise fulfield(completa),reject(rejeitou,erro),pendin
 
 
 Aula 3 - 
+
+Uma promise sempre retorna um objeto do tipo response, mesmo que ela seja rejeitada ou resolvida
+
+O objeto do tipo response precisa ser convertido em json
+
+o then pode ser traduzido como um então, que definirá o que acontecerá com a promise
+
+o then pega a requisição e faz algo com o que foi retornado
+
+O catch é um método assim como o then, que "pega" os erros
+
+Quando for um erro de cep inexistente por exemplo, não cairá no catch e será preciso 
+usar um throw Error para gerar um erro que será pego pelo catch
+
+O finally é outro método, que independente da resposta da promessa ele é executado
+
+O protocolo HTTP permite a transmissão de "hiper textos" entre máquinas, e possui algumas
+regras, ou seja, realmente é um protocolo a ser seguido
+
+Dentro do protocolo HTTP existe uma requisição(request) e uma resposta(response)
+
+Nas responses são retornados 1 código e um motivo que dá significado ao código
+
+Existem alguns tipos de response: 
+
+1XX: Informativo – a solicitação foi aceita ou está em andamento;
+2XX: Confirmação – a solicitação foi concluída ou entendida;
+3XX: Redirecionamento – faltou alguma coisa na solicitação;
+4XX: Erro do cliente – houve um erro na solicitação;
+5XX: Erro no servidor – houve uma falha no servidor durante a solicitação.
+
