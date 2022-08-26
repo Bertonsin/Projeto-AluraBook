@@ -77,3 +77,8 @@ Callback hell - quando se usa muitos then e existem muitas funções callbacks
 outra maneira de criar uma função assincrona é atraves do async function
 
 usando a função async function é preciso usar o await dentro dela
+
+try é um método que envolve a função e "tenta" responder corretamente, caso não consiga
+cai no catch que deve ser colocado logo após
+
+promise.all - ajuda a fazer várias requisições ao mesmo tempo
