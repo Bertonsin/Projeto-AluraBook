@@ -1,0 +1,40 @@
+Aula 1 -
+
+O padrão do javascript é um sistema sincrono, no qual uma tarefa é concluida apos
+a outra
+
+No javascript assíncrono existem tarefas sendo executadas em segundo plano
+
+Dento do javascript o código pode ser separado em 3 partes importantes, o event loop que 
+verifica e manda os itens para callstack, o call stack chama tudo que acontece na tela e o
+task queue que é responsavel pelo sistema sincrono. O task queue basicamente é um "fila" em 
+que os itens "esperam" para irem ao call stack e serem chamados e executados, ocorrendo quando
+alguma função como o setTimeout por exemplo coloca uma condição de tempo ou algo assim
+
+Uma explicação mais direta: 
+
+ O Event Loop é um ciclo que monitora e executa as ações que mandamos para o JavaScript.
+
+ A call stack é um mecanismo que organiza como irá funcionar o script quando existem muitas funções: qual função está sendo executada, quais estão sendo chamadas dentro de alguma função, etc.
+ 
+ A task queue é a fila de tarefas assíncronas.
+
+
+Aula 2 - 
+
+call back são funções que são enviadas como parâmetros para outras funções
+
+Api viacep - api é interface de programação de aplicações
+
+a api permite a conexão entre cliente e servidor
+
+Fetch - é um método assíncrono com um parâmetro obrigatório a url da API que retorna uma promise
+
+Promise - é uma promessa de que algo vai acontecer e ela pode retornar que foi resolvida ou rejeitada, permitindo que métodos assíncronos se tornem síncronos
+
+A promise recebe 2 parâmetros o resolve e reject que são funções callbacks
+
+Existem 3 estados para a promise fulfield(completa),reject(rejeitou,erro),pending(não concluiu)
+
+
+Aula 3 - 
