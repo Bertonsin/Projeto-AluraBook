@@ -69,3 +69,11 @@ Existem alguns tipos de response:
 4XX: Erro do cliente – houve um erro na solicitação;
 5XX: Erro no servidor – houve uma falha no servidor durante a solicitação.
 
+
+Aula 4 -
+
+Callback hell - quando se usa muitos then e existem muitas funções callbacks
+
+outra maneira de criar uma função assincrona é atraves do async function
+
+usando a função async function é preciso usar o await dentro dela
